@@ -1,0 +1,70 @@
+.navbar{
+
+    padding: 8px 0px;
+
+    & .navBrand{
+        padding-top: 0;
+        margin-top: -5px;
+    }
+    & .navItem{
+        font-size: 15px;
+    
+        & .navItems{
+            margin-top: 0px;
+            // color: black !important;
+            margin-left: 15px;
+        }
+    
+        & .navDropDown{
+    
+            margin: -3px 0 0 15px;
+    
+            & .dropdown-toggle::after{
+                display: none;
+            }
+    
+            & .dropdown-menu{
+                width: 235px;
+                background-color: black;
+                
+                & .dropdownItem{
+                    color: rgba(245, 245, 245, 0.5);
+                }
+    
+                & .dropdownItem:hover{
+                    background-color: rgba(128, 128, 128, 0.25);
+                    color: white;
+                }
+    
+                & .dropdown-divider{
+                    border-color: rgba(128, 128, 128, 0.25);
+                }
+            }
+        }
+    }
+    
+    .navBtn{
+        margin: 0px 0 0 15px;
+    }
+    
+    .loginBtn{
+        margin-left: 30px;
+        border-left: 1px solid rgba(26, 26, 26, 0.5);
+    }
+    
+    .joinBtn{
+        background-color: #DD7A00;
+        color: white;
+    }
+    
+    @media (max-width: 992px){
+        .loginBtn{
+            margin-left: 0px;
+            border-left: none;
+        }
+    
+        .submitPhotosBtn{
+            margin-top: 10px;
+        }
+    }
+}

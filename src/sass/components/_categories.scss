@@ -1,0 +1,58 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-top: -130px;
+
+  & .container {
+    width: 80%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  & .cat-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 10px;
+  }
+
+  & .slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .image-list {
+      width: 20%;
+      margin-right: 20px;
+      
+      & img {
+        width: 100%;
+      }
+    }
+
+    & .image-list:nth-child(5) {
+      margin-right: 0px;
+    }
+
+    & .button-container {
+      width: 30px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.25);
+      margin-left: -10px;
+
+      & .slider-button {
+        padding: 6px;
+        background-color: transparent;
+        background-image: url("../../assets/next.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: none;
+      }
+    }
+  }
+}

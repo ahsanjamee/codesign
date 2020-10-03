@@ -1,0 +1,93 @@
+.col-md-4 {
+  padding: 0 9px;
+}
+
+.imageItems1, .imageItems2{
+    padding-right: 0;
+}
+
+.row-images {
+  margin-right: 3px;
+}
+.imageItems {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  & .imageItemColumn {
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  & .three {
+    position: absolute;
+    width: 60px;
+    top: 46%;
+    left: 40%;
+  }
+
+  & .add {
+    position: absolute;
+    width: 50px;
+    top: 10%;
+    right: 10%;
+  }
+
+  & .download {
+    position: absolute;
+    width: 25px;
+    bottom: 10%;
+    right: 10%;
+  }
+
+  & .plays {
+    position: absolute;
+    width: 40px;
+    bottom: 40%;
+    right: 42%;
+  }
+
+  & .sponsored {
+    color: white;
+    position: absolute;
+    width: 40px;
+    top: 10%;
+    right: 20%;
+  }
+
+  & .featured{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+    z-index: 99;
+
+    & .feat-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & img{
+            width: 50px;
+            height: 50px;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+
+        & .name{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        & .views{
+            font-size: small;
+        }
+    }
+
+
+  }
+}
